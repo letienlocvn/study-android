@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_LoadDataFromRAW"
+        android:orderInCategory="100"
+        android:title="Load data From RAW"
+        android:onClick="clickToLoadDataFromRAW" />
+    <item
+        android:id="@+id/action_SaveDataFromRawToInternal"
+        android:orderInCategory="100"
+        android:title="Save Data From Raw To Internal"
+        android:onClick="clickToSaveDataFromRawToInternal" />
+
+    <item
+        android:id="@+id/action_LoadDataFromInternal"
+        android:orderInCategory="100"
+        android:title="Load data From RAW"
+        android:onClick="clickToLoadDataFromInternal" />
+
+    <item
+        android:id="@+id/action_SaveDataFromInternalToExternal"
+        android:orderInCategory="100"
+        android:title="Save Data From Internal To SD card"
+        android:onClick="clickToSaveDataFromInternalToExternal" />
+
+    <item
+        android:id="@+id/action_LoadDataFromExternal"
+        android:orderInCategory="100"
+        android:title="Load data From SD Card"
+        android:onClick="clickToLoadDataFromExternal" />
+
+    <item
+        android:id="@+id/action_RestoreDataFromExternal"
+        android:orderInCategory="100"
+        android:title="Restore data From SD Card"
+        android:onClick="clickToRestoreDataFromExternal" />
+    <item
+        android:id="@+id/action_BackupDataFromExternal"
+        android:orderInCategory="100"
+        android:title="Back up to SD Card"
+        android:onClick="clickToBackupDataToExternal" />
+</menu>
